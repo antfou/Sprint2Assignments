@@ -1,7 +1,7 @@
 package Demos.ScannerDemo;
 
 import java.util.Scanner;
-
+//yo
 public class ScannerDemo {
     public ScannerDemo(){
         Scanner sc = new Scanner(System.in);
