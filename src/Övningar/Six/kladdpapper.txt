@@ -1,0 +1,6 @@
+Random number generator för priset av produkten.
+Displaya priset i terminalen.
+Ta in hur mycket som de betalat i terminalen ("Vilket belopp betalar du?")
+If (växel = 0) {sout:"Det blev ingen växel"}
+If (växel < 0) {sout: "Det saknas x antal kronor"} (räkna ut detta med (-växel + (-växel x 2)
+If (växel > 0) {Kör programmet}
