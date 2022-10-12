@@ -10,9 +10,9 @@ public class Terminalen {
         int pris = r.nextInt(20000)+1;
         return pris;
     }
-
-
-    public int getBetalning() { //Släng in input handlers i olika metoder så det går att try catcha samt testa.
+    //Släng in input handlers i olika metoder så det går att try catcha samt testa.
+    //Använd assert throw och assert does not throw i testerna.
+    public int getBetalning() {
         int temp = 0;
         int pengarBetalat;
         try{
@@ -30,6 +30,7 @@ public class Terminalen {
         pengarBetalat = temp;
         return pengarBetalat;
     }
+
     public void snåljåp(int växel, int pris, int pengarBetalat){
         if(växel == 0){
             System.out.println("Det blev ingen växel över.");
