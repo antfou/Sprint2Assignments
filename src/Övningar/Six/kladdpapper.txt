@@ -4,3 +4,14 @@ Ta in hur mycket som de betalat i terminalen ("Vilket belopp betalar du?")
 If (växel = 0) {sout:"Det blev ingen växel"}
 If (växel < 0) {sout: "Det saknas x antal kronor"} (räkna ut detta med (-växel + (-växel x 2)
 If (växel > 0) {Kör programmet}
+
+
+
+        public void snåljåp ( int växel);{
+            if (växel == 0) {
+                System.out.println("Det blev ingen växel över.");
+            } else if (växel < 0) {
+                int saknas = växel + (växel * 2);
+                System.out.println("Det saknas: " + saknas + ":-");
+            }
+        }
