@@ -3,6 +3,8 @@ package Övningar.Six;
 import java.util.Random;
 import java.util.Scanner;
 
+
+//Det går att använda booleans för att se om du är inne i ett test eller inte, så ifall test är true så kan man köra där scanners har en txt sträng istället för system in.
 public class Terminalen {
     Scanner sc = new Scanner(System.in);
     Random r = new Random();
